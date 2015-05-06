@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+					<parameter name="p_host_reprod_success" displayName="p_host_reprod_success" type="java.lang.Integer" 
+						defaultValue="20" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="randomSeed" displayName="Default Random Seed" type="int" 
+						defaultValue="__NULL__"
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="p_host_dmg_threshold" displayName="p_host_dmg_threshold" type="java.lang.Integer" 
+						defaultValue="1020" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="p_host_id" displayName="p_host_id" type="java.lang.String" 
+						defaultValue="host" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="p_host_height" displayName="p_host_height" type="java.lang.String" 
+						defaultValue="High" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="p_host_percentage" displayName="p_host_percentage" type="java.lang.Double" 
+						defaultValue="0.5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="p_host_colour" displayName="p_host_colour" type="java.lang.String" 
+						defaultValue="#ffff33" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+		</parameters>
+
+

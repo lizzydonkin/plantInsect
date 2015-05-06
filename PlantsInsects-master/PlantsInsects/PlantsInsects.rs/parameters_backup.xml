@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+					<parameter name="i_spec22_hatch_time" displayName="i_spec22_hatch_time" type="java.lang.Integer" 
+						defaultValue="1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="randomSeed" displayName="Default Random Seed" type="int" 
+						defaultValue="__NULL__"
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="p_cabbage_id" displayName="p_cabbage_id" type="java.lang.String" 
+						defaultValue="cabbage" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="i_spec22_sensory_mode" displayName="i_spec22_sensory_mode" type="java.lang.String" 
+						defaultValue="Olfactory" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="i_spec22_colour" displayName="i_spec22_colour" type="java.lang.String" 
+						defaultValue="#ff0000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="p_host_dmg_threshold" displayName="p_host_dmg_threshold" type="java.lang.Integer" 
+						defaultValue="5010" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="i_gen_mig_in" displayName="i_gen_mig_in" type="java.lang.Double" 
+						defaultValue="0.005" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="p_crop_percentage" displayName="p_crop_percentage" type="java.lang.Double" 
+						defaultValue="0.5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="p_crop_dmg_threshold" displayName="p_crop_dmg_threshold" type="java.lang.Integer" 
+						defaultValue="5000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="p_apple_percentage" displayName="p_apple_percentage" type="java.lang.Double" 
+						defaultValue="0.5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="i_gen_max_flight_len" displayName="i_gen_max_flight_len" type="java.lang.Integer" 
+						defaultValue="5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="i_spec_memory_size" displayName="i_spec_memory_size" type="java.lang.Integer" 
+						defaultValue="5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="p_crop_height" displayName="p_crop_height" type="java.lang.String" 
+						defaultValue="Medium" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="p_cabbage_reprod_success" displayName="p_cabbage_reprod_success" type="java.lang.Integer" 
+						defaultValue="21" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="p_apple_colour" displayName="p_apple_colour" type="java.lang.String" 
+						defaultValue="#00ff00" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="p_grass_dmg_threshold" displayName="p_grass_dmg_threshold" type="java.lang.Integer" 
+						defaultValue="2000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="i_spec22_tolerance" displayName="i_spec22_tolerance" type="java.lang.Integer" 
+						defaultValue="3" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="i_spec22_initial_dist" displayName="i_spec22_initial_dist" type="java.lang.String" 
+						defaultValue="Random" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="p_apple_height" displayName="p_apple_height" type="java.lang.String" 
+						defaultValue="Medium" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="i_gen_tradeoff" displayName="i_gen_tradeoff" type="java.lang.Double" 
+						defaultValue="0.5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="i_spec22_id" displayName="i_spec22_id" type="java.lang.String" 
+						defaultValue="spec22" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="i_spec_id" displayName="i_spec_id" type="java.lang.String" 
+						defaultValue="spec" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="i_gen_id" displayName="i_gen_id" type="java.lang.String" 
+						defaultValue="gen" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="p_grass_id" displayName="p_grass_id" type="java.lang.String" 
+						defaultValue="grass" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="p_grass_colour" displayName="p_grass_colour" type="java.lang.String" 
+						defaultValue="#00ff00" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="p_apple_reprod_success" displayName="p_apple_reprod_success" type="java.lang.Integer" 
+						defaultValue="20" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="p_apple_id" displayName="p_apple_id" type="java.lang.String" 
+						defaultValue="apple" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="p_crop_id" displayName="p_crop_id" type="java.lang.String" 
+						defaultValue="crop" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="i_gen_hatch_time" displayName="i_gen_hatch_time" type="java.lang.Integer" 
+						defaultValue="1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="p_host_reprod_success" displayName="p_host_reprod_success" type="java.lang.Integer" 
+						defaultValue="20" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="i_spec_eggs_on_plants" displayName="i_spec_eggs_on_plants" type="java.lang.String" 
+						defaultValue="host-3;crop-1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="p_cabbage_dmg_threshold" displayName="p_cabbage_dmg_threshold" type="java.lang.Integer" 
+						defaultValue="2010" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="i_gen_mig_out" displayName="i_gen_mig_out" type="java.lang.Double" 
+						defaultValue="0.01" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="i_spec22_tradeoff" displayName="i_spec22_tradeoff" type="java.lang.Double" 
+						defaultValue="0.75" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="i_spec_max_flight_len" displayName="i_spec_max_flight_len" type="java.lang.Integer" 
+						defaultValue="5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="i_spec22_mortality" displayName="i_spec22_mortality" type="java.lang.Double" 
+						defaultValue="0.009999999999999998" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="i_spec_initial_dist" displayName="i_spec_initial_dist" type="java.lang.String" 
+						defaultValue="Random" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="i_gen_initial_count" displayName="i_gen_initial_count" type="java.lang.Integer" 
+						defaultValue="20" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="p_grass_reprod_success" displayName="p_grass_reprod_success" type="java.lang.Integer" 
+						defaultValue="20" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="i_spec22_mig_in" displayName="i_spec22_mig_in" type="java.lang.Double" 
+						defaultValue="0.005" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="plantDistribution" displayName="Plant Spacial Distribution" type="java.lang.String" 
+						defaultValue="Random" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="i_spec_mig_out" displayName="i_spec_mig_out" type="java.lang.Double" 
+						defaultValue="0.01" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="i_spec22_memory_size" displayName="i_spec22_memory_size" type="java.lang.Integer" 
+						defaultValue="5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="i_gen_sensory_mode" displayName="i_gen_sensory_mode" type="java.lang.String" 
+						defaultValue="Olfactory" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="i_gen_colour" displayName="i_gen_colour" type="java.lang.String" 
+						defaultValue="#0000ff" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="i_spec_mortality" displayName="i_spec_mortality" type="java.lang.Double" 
+						defaultValue="0.009999999999999998" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="i_gen_max_eggs" displayName="i_gen_max_eggs" type="java.lang.Integer" 
+						defaultValue="5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="p_host_id" displayName="p_host_id" type="java.lang.String" 
+						defaultValue="host" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="i_spec22_eggs_on_plants" displayName="i_spec22_eggs_on_plants" type="java.lang.String" 
+						defaultValue="host-3;crop-1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="i_spec22_initial_count" displayName="i_spec22_initial_count" type="java.lang.Integer" 
+						defaultValue="20" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="i_spec_tolerance" displayName="i_spec_tolerance" type="java.lang.Integer" 
+						defaultValue="3" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="i_spec22_max_flight_len" displayName="i_spec22_max_flight_len" type="java.lang.Integer" 
+						defaultValue="5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="i_gen_eggs_on_plants" displayName="i_gen_eggs_on_plants" type="java.lang.String" 
+						defaultValue="host-2;crop-2" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="p_host_percentage" displayName="p_host_percentage" type="java.lang.Double" 
+						defaultValue="0.5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="p_host_colour" displayName="p_host_colour" type="java.lang.String" 
+						defaultValue="#ffff33" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="i_spec_colour" displayName="i_spec_colour" type="java.lang.String" 
+						defaultValue="#ff0000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="i_gen_initial_dist" displayName="i_gen_initial_dist" type="java.lang.String" 
+						defaultValue="Random" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="gridSize" displayName="Grid Size" type="int" 
+						defaultValue="25" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="p_cabbage_percentage" displayName="p_cabbage_percentage" type="java.lang.Double" 
+						defaultValue="0.5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="p_cabbage_colour" displayName="p_cabbage_colour" type="java.lang.String" 
+						defaultValue="#00ff00" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="i_gen_mortality" displayName="i_gen_mortality" type="java.lang.Double" 
+						defaultValue="0.01" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="i_gen_memory_size" displayName="i_gen_memory_size" type="java.lang.Integer" 
+						defaultValue="5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="plantIds" displayName="Plant Ids (semicolon separated)" type="java.lang.String" 
+						defaultValue="crop;host" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="p_crop_colour" displayName="p_crop_colour" type="java.lang.String" 
+						defaultValue="#00ff00" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="p_grass_percentage" displayName="p_grass_percentage" type="java.lang.Double" 
+						defaultValue="0.5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="i_spec_sensory_mode" displayName="i_spec_sensory_mode" type="java.lang.String" 
+						defaultValue="Olfactory" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="p_apple_dmg_threshold" displayName="p_apple_dmg_threshold" type="java.lang.Integer" 
+						defaultValue="2000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="i_spec_tradeoff" displayName="i_spec_tradeoff" type="java.lang.Double" 
+						defaultValue="0.75" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="i_spec_initial_count" displayName="i_spec_initial_count" type="java.lang.Integer" 
+						defaultValue="20" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="i_spec_hatch_time" displayName="i_spec_hatch_time" type="java.lang.Integer" 
+						defaultValue="1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="simRun" displayName="Simulation Run (in years)" type="int" 
+						defaultValue="10" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="i_spec22_mig_out" displayName="i_spec22_mig_out" type="java.lang.Double" 
+						defaultValue="0.01" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="i_gen_tolerance" displayName="i_gen_tolerance" type="java.lang.Integer" 
+						defaultValue="0" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="p_crop_reprod_success" displayName="p_crop_reprod_success" type="java.lang.Integer" 
+						defaultValue="20" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="i_spec_max_eggs" displayName="i_spec_max_eggs" type="java.lang.Integer" 
+						defaultValue="5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="p_cabbage_height" displayName="p_cabbage_height" type="java.lang.String" 
+						defaultValue="Short" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="p_host_height" displayName="p_host_height" type="java.lang.String" 
+						defaultValue="Medium" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="p_grass_height" displayName="p_grass_height" type="java.lang.String" 
+						defaultValue="Medium" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="insectIds" displayName="Insect Ids (semicolon separated)" type="java.lang.String" 
+						defaultValue="gen;spec" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="i_spec22_max_eggs" displayName="i_spec22_max_eggs" type="java.lang.Integer" 
+						defaultValue="5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="i_spec_mig_in" displayName="i_spec_mig_in" type="java.lang.Double" 
+						defaultValue="0.005" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+		</parameters>
+
+
